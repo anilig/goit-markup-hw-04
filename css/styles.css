@@ -1,0 +1,406 @@
+:root {
+	--main-font: "Raleway", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+	--main-color: #2196f3;
+}
+
+body {
+	font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.sectionbutton {
+	padding-top: 94px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+/* ````````````` HEADER  ````````````` */
+.header {
+	border: 1px solid #ececec;
+	height: 80px;
+}
+
+.header .container,
+.navigation-list {
+	display: flex;
+	align-items: center;
+}
+
+.header .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navigation {
+	display: flex;
+}
+
+li {
+	display: inline-block;
+	width: auto;
+}
+
+.navigation-list-item {
+	margin-left: 50px;
+	font-size: 14px;
+	line-height: 1.142px;
+}
+
+.mail-navigation {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.142px;
+	letter-spacing: 0.02em;
+	color: #757575;
+	margin-left: auto;
+	margin-right: 50px;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.link,
+.mail,
+.phone-number,
+.navigation-logo {
+	text-decoration: none;
+	color: #2196f3;
+}
+
+.navigation-logo,
+.navigation-logo-white,
+.navigation-logo-black {
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	color: #2196f3;
+}
+
+.navigation-logo-white {
+	color: white;
+}
+
+.navigation-logo-black,
+.link {
+	color: black;
+}
+
+.navigation-list {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+
+.phone-number {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.02em;
+	color: #757575;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.mail:hover,
+.mail:focus,
+.link:hover,
+.link:focus,
+.phone-number:hover,
+.phone-number:focus {
+	color: var(--main-color);
+}
+
+.orderservice:hover,
+.button:hover {
+	cursor: pointer;
+}
+
+.mail {
+	font-style: normal;
+	color: #757575;
+}
+
+/* `````````````END HEADER  ````````````` */
+/* ````````````` MAIN  ````````````` */
+.h1 {
+	font-size: 44px;
+	width: 696px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.orderservice {
+	color: white;
+	width: 200px;
+	height: 50px;
+	left: 700px;
+	top: 430px;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+
+.button {
+	color: black;
+	height: 38px;
+	top: 174px;
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	border: hidden;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625px;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #2196f3;
+	color: white;
+}
+
+.sectionhead {
+	background-color: #2f303a;
+	align-items: center;
+	padding-top: 200px;
+	padding-bottom: 280px;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.card-set {
+	width: 1200px;
+	display: flex;
+}
+
+.item {
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.item:not(:last-child) {
+	margin-right: 30px;
+}
+
+
+.card-whatwedo,
+.card-ourteam {
+	display: flex;
+}
+
+.item-whatwedo:not(:last-child),
+.lilastteam:not(:last-child) {
+	margin-right: 30px;
+}
+
+.h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+.h6 {
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 1.142;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+	padding-bottom: 10px;
+}
+
+.textparagraph {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.titleh2 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.166;
+	letter-spacing: 0.03em;
+	color: #212121;
+	text-align: center;
+	padding-bottom: 92px;
+}
+
+.vacatname {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.187;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.titleh3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #757575;
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.last-section {
+	background: #f5f4fa;
+	padding-top: 92px;
+	padding-bottom: 92px;
+	margin: 0 auto;
+	/* display: flex; */
+}
+
+.container .lilastteam {
+	max-width: 270px;
+	height: 368px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-ourteam {
+	display: flex;
+}
+
+.lilastteam:not(:last-child) {
+	margin-right: 30px;
+}
+
+.lilastteam.no-gap {
+	display: block;
+}
+
+.nickname {
+	margin: 0;
+	padding: 20px;
+	font-weight: 500;
+	background-color: white;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.187;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.imgportfolio {
+	width: 370px;
+	height: 294px;
+}
+
+figure {
+    border: thin #e7e4e4 solid;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+
+figcaption {
+	padding-left: 24px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+}
+
+.figureli {
+	padding-bottom: 15px;
+	padding-right: 15px;
+	}
+
+
+/* ````````````` END MAIN  ````````````` */
+/* ````````````` FOOTER  ````````````` */
+.footer {
+	background-color: #2f303a;
+	color: white;
+	height: 252px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.footerlogo {
+	padding-top: 60px;
+}
+
+.footer-address {
+	padding-bottom: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 0.642;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.last {
+	padding-bottom: 20px;
+}
+/* ````````````` END FOOTER  ````````````` */
+/* ~~~~~~~~~~~~~PORTFOLIO ~~~~~~~~~~~~~~~~~*/
