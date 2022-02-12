@@ -185,8 +185,6 @@ li {
 	margin: 0 auto;
 }
 
-
-
 .button {
 	color: black;
 	height: 38px;
@@ -213,7 +211,9 @@ li {
 }
 
 .sectionhead {
-	background-color: #2f303a;
+	background: rgba(0, 0, 0, 0.4) url("../images/backroungindex.jpg") no-repeat;
+	background-size: cover;
+	background-blend-mode: darken;
 	align-items: center;
 	padding-top: 200px;
 	padding-bottom: 280px;
@@ -238,16 +238,52 @@ li {
 	margin-right: 30px;
 }
 
-
 .card-whatwedo,
 .card-ourteam {
 	display: flex;
+}
+
+.ourteam {
+	background-color: #f5f4fa;
 }
 
 .item-whatwedo:not(:last-child),
 .lilastteam:not(:last-child) {
 	margin-right: 30px;
 }
+
+.social-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.social-list__link {
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-list__link:hover,
+.social-list__link:focus {
+	background-color: #2196f3;
+	fill: white;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	fill: #afb1b8;
+}
+
+/* .social-icon:hover,
+.social-icon:focus {
+	fill: #fff;
+} */
 
 .h3 {
 	font-weight: bold;
@@ -291,6 +327,7 @@ li {
 	line-height: 1.187;
 	letter-spacing: 0.03em;
 	color: #757575;
+	margin-bottom: 30px;
 }
 
 .titleh3 {
@@ -306,7 +343,7 @@ li {
 }
 
 .last-section {
-	background: #f5f4fa;
+	background: white;
 	padding-top: 92px;
 	padding-bottom: 92px;
 	margin: 0 auto;
@@ -315,7 +352,7 @@ li {
 
 .container .lilastteam {
 	max-width: 270px;
-	height: 368px;
+	height: 428px;
 	margin-bottom: 30px;
 	border-radius: 4px;
 	background-color: white;
@@ -354,26 +391,66 @@ li {
 }
 
 figure {
-    border: thin #e7e4e4 solid;
-    display: flex;
-    flex-flow: column;
-    margin: 0 auto;
+	border: thin #e7e4e4 solid;
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
 }
 
+figure:hover,
+button:hover {
+	box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 
 figcaption {
 	padding-left: 24px;
 	padding-bottom: 30px;
 	padding-top: 30px;
-    background-color: rgb(255, 255, 255);
-    color: #fff;
+	background-color: rgb(255, 255, 255);
+	color: #fff;
 }
 
 .figureli {
 	padding-bottom: 15px;
 	padding-right: 15px;
-	}
+}
 
+.icon-envelop {
+	width: 16px;
+	height: 12px;
+	color: #757575;
+}
+
+.icon-logo {
+	width: 106px;
+	height: 60px;
+	display: flex;
+	margin: 0 auto;
+	fill: #AFB1B8;
+	;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+	fill: #2196f3;
+}
+
+.ourcustomers {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #afb1b8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding-top: 16px;
+	padding-bottom:16px;
+	justify-content: space-between;
+
+}
+
+.ourcustomers:not(:last-child) {
+	margin-right: 26px;
+}
 
 /* ````````````` END MAIN  ````````````` */
 /* ````````````` FOOTER  ````````````` */
@@ -383,6 +460,7 @@ figcaption {
 	height: 252px;
 	padding-top: 60px;
 	padding-bottom: 30px;
+	margin-top: 30px;
 }
 
 .footerlogo {
